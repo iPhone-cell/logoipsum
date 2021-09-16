@@ -29,6 +29,7 @@ h3 {
 
 a {
 	text-decoration: none;
+	cursor: pointer;
 }
 
 p {
@@ -309,7 +310,7 @@ h3 {
 .price-item .ordinary-price, .price-item .premium-price {
 	font-family: DM Sans;
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 50px;
 	color: #1D293F;
 	margin: 22px 0 28px 0;
 }
