@@ -377,13 +377,21 @@ h3 {
     display: block;
     position: absolute;
     display: flex;
-    left: 7%;
-    top: 30;
-    padding: 40px 20px 20px 40px;
+    top: 30px;
+    left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    z-index: 2;
+
 }
 
 .header .show-menu li {
-	margin: 0 10px 0 0;
+	margin: 0 0 20px 0;
+}
+
+.header .show-menu li a {
+	font-size: 24px;
 }
 
 /* Responsive starts here */
@@ -536,5 +544,8 @@ h3 {
 	}
 	.nav .btn {
 		display: none;
+	}
+	.offer {
+		margin-top: 250px;
 	}
 }
